@@ -1,0 +1,4 @@
+string grasp_type
+string handover_type
+---
+bool success
