@@ -58,14 +58,13 @@ find_package(catkin REQUIRED COMPONENTS
 add_service_files(
   FILES
   CollisionChecking.srv
-  CCM.srv
   GraspExec.srv
   InitGripper.srv
   MoveHandover.srv
   ProcessPC.srv
   FinishHandoverSrv.srv
   GraspTesterSrv.srv
-  ModelMoverSrv.srv
+  HandCloserSrv.srv
   HandoverControllerSrv.srv
 )
 
