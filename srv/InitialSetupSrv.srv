@@ -2,6 +2,8 @@
 # fixed: move to a hardcoded fixed joint configuration
 # pose: move the left arm to the given target pose and look at the gripper with the head
 string mode
+# Only used for mode fixed
+string object_type
 # Only used for mode pose
 geometry_msgs/PoseStamped target_pose
 ---

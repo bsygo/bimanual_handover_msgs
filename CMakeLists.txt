@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
   geometry_msgs
+  moveit_msgs
   message_generation
 )
 
@@ -50,16 +51,14 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 # add_message_files(
 #   FILES
-#   Message1.msg
-#   Message2.msg
+#   MsgFile.msg
 # )
 
 ## Generate services in the 'srv' folder
 add_service_files(
   FILES
   CollisionChecking.srv
-  GraspExec.srv
-  InitGripper.srv
+  InitialSetupSrv.srv
   MoveHandover.srv
   ProcessPC.srv
   FinishHandoverSrv.srv
@@ -80,6 +79,7 @@ generate_messages(
   DEPENDENCIES
   std_msgs
   geometry_msgs
+  moveit_msgs
 )
 
 ################################################
