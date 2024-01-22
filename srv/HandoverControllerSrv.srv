@@ -1,5 +1,4 @@
 string handover_type
-string grasp_type
 string object_type
 ---
 bool success
