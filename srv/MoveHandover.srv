@@ -1,5 +1,6 @@
 string side
-string mode
+string grasp_pose_mode
+string handover_pose_mode
 string object_type
 ---
 bool success
