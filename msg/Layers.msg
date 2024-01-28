@@ -1,0 +1,3 @@
+string data_type
+string direction
+std_msgs/Int32MultiArray selected_layers
