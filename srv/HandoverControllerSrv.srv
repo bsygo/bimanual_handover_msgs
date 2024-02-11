@@ -1,4 +1,5 @@
 string handover_type
 string object_type
+string side
 ---
 bool success
