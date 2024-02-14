@@ -1,3 +1,3 @@
 string data_type
 string mode
-int threshold
+int32 threshold
