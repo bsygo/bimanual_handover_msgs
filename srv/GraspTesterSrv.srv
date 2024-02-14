@@ -1,4 +1,5 @@
 string direction
 bool train
+string side
 ---
 bool success
