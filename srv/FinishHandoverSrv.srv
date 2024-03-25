@@ -1,3 +1,4 @@
-string placeholder
+# Currently not used, the pose is fixed instead
+geometry_msgs/PoseStamped goal_pose
 ---
 bool success

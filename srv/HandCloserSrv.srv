@@ -1,4 +1,4 @@
-# Only used for pca hand_closer. Can be "can" or "book"
+# Only used for model hand_closer. Can be "can", "bleach", or "roll"
 string object_type
 ---
 bool finished
