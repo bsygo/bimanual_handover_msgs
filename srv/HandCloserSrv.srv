@@ -1,4 +1,6 @@
-# Only used for model hand_closer. Can be "can", "bleach", or "roll"
+# Only used for model closer. Can be "can", "bleach", or "roll"
 string object_type
+# Only used for model closer. Can be "side" or "top"
+string grasp_type
 ---
 bool finished
